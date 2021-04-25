@@ -306,7 +306,7 @@ class HomeItem extends Component{
   }
 
   onLikeClicked = (id) => {
-    // Here, we are converting the likes symbol from white to pink and also incrementing/decrementing the number of likes
+    //  converting the likes symbol color from white to pink and also incrementing/decrementing the number of likes
 
     if (!this.state.isLiked) {
       this.setState({
