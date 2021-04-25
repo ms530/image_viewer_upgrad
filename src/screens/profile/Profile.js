@@ -72,7 +72,7 @@ class Profile extends Component {
     componentDidMount(){
         this.getBaseUserInfo();
     }
-
+  // profile section
     getBaseUserInfo = () => {
         let that = this;
         let url = `${constants.userInfoUrl}=${sessionStorage.getItem('access-token')}`;
